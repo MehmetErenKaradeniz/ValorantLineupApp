@@ -1,6 +1,6 @@
 # flutter_proje_mehmet_eren_karadeniz_2212102003
 
-A new Flutter project.
+A new Valorant Lineup flutter project.
 
 ## Getting Started
 
