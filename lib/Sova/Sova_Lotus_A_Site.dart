@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,7 +21,10 @@ class Sova_Lotus_A_Site extends StatefulWidget {
 
 class _Sova_Lotus_A_SiteState extends State<Sova_Lotus_A_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
+    VideoData("LYA--XQ27gU", "Lotus Sova A Main to A Default Post Plant Lineup"),
+    VideoData("x7kVgMmp2H8", "Lotus Sova A Main to A Site Recon Dart"),
+    VideoData("vniMwInf3JU", "Lotus Sova B Main to A Site Fake Recon Dart"),
+
 
   ];
 

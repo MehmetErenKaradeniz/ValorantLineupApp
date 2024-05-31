@@ -23,7 +23,7 @@ import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Sova/Sova_Split_A
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Sova/Sova_Split_B_Site.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Sova/Sova_Sunset_A_Site.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Sova/Sova_Sunset_B_Site.dart';
-import 'Agents.dart';
+import 'AgentsData.dart';
 import 'SiteData.dart';
 import 'MapsData.dart';
 
@@ -52,7 +52,6 @@ class Site extends StatelessWidget {
           itemBuilder: (context, index) {
             return InkWell(
               onTap: () {
-                // Ajan adı, harita adı ve site adına göre farklı sayfaları aç
                 switch (agent.agentsName) {
                   case "Sova":
                     switch (map.mapName) {

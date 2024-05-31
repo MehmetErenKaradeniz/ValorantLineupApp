@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,9 +21,10 @@ class Cypher_Split_A_Site extends StatefulWidget {
 
 class _Cypher_Split_A_SiteState extends State<Cypher_Split_A_Site> {
   List<VideoData> videoDataList = [
-    VideoData("03Ie2ZiRkAQ", "Sova Default Post Plant Linep"),
-    VideoData("ktdQR7tLECU", "Site1231 2"),
-    VideoData("BfV7PnurQWo", "Siteeee 3"),
+    VideoData("ajk4cIFH4lc", "Split Cypher A Site Setup 1"),
+    VideoData("agsKB35J_xI", "Split Cypher A Site Setup 2"),
+    VideoData("LFVC1aB_jzk", "Split Cypher A Site Setup 3"),
+    VideoData("9VNHi-5gbtk", "Split Cypher A Site Setup 4"),
   ];
 
   List<VideoData> favorites = [];

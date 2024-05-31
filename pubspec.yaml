@@ -83,6 +83,11 @@ flutter:
      - assets/A_Site.png
      - assets/B_Site.png
      - assets/C_Site.png
+     - assets/ControllerClassSymbol.png
+     - assets/DuelistClassSymbol.png
+     - assets/InitiatorClassSymbol.png
+     - assets/SentinelClassSymbol.png
+     - assets/noneSymbol.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

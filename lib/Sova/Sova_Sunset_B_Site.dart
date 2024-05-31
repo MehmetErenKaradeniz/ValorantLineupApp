@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,7 +21,12 @@ class Sova_Sunset_B_Site extends StatefulWidget {
 
 class _Sova_Sunset_B_SiteState extends State<Sova_Sunset_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
+    VideoData("pudlbk_aSfE", "Sunset Sova B Main to B Site Default Post Plant Lineup"),
+    VideoData("uOEYi1LZt00", "Sunset Sova B Main to B Enter Cypher Trap Break"),
+    VideoData("PLjVWy7OzHE", "Sunset Sova B Main to B Enter Cypher Trap Break 2"),
+    VideoData("L-ZOe23FS_M", "Sunset Sova B Main to Mid Double Shock Dart"),
+    VideoData("pBHBCGlw4Bs", "Sunset Sova B Main to B Backsite Recon Dart"),
+    VideoData("Khfa0m5szTg", "Sunset Sova B Main to B Close Recon Dart"),
 
   ];
 

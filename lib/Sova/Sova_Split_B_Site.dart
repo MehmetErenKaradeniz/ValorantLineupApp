@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,7 +21,12 @@ class Sova_Split_B_Site extends StatefulWidget {
 
 class _Sova_Split_B_SiteState extends State<Sova_Split_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
+    VideoData("cGmni8QNPS0", "Split Sova B Garage to B Default Post Plant Lineup"),
+    VideoData("ta4TJ3GVAfs", "Split Sova B Main to B Default Post Plant Lineup"),
+    VideoData("lqrIyTVGPtc", "Split Sova B Main to B Site Recon Dart"),
+    VideoData("msDK6AmIuQA", "Split Sova B Main to B Site Recon Dart 2"),
+    VideoData("zVUZxF8aRqU", "Split Sova B Main to B Site Recon Dart 3"),
+    VideoData("ND1PXlHXx4o", "Split Sova B Main to B Site/Haven Recon Dart 4"),
 
   ];
 

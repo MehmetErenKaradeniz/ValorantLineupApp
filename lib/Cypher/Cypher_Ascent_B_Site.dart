@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,9 +21,10 @@ class Cypher_Ascent_B_Site extends StatefulWidget {
 
 class _Cypher_Ascent_A_SiteState extends State<Cypher_Ascent_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("03Ie2ZiRkAQ", "Sova Default Post Plant Linep"),
-    VideoData("ktdQR7tLECU", "Site1231 2"),
-    VideoData("BfV7PnurQWo", "Siteeee 3"),
+    VideoData("6wxl1WsB8_4", "Ascent Cypher B Site Setup 1"),
+    VideoData("0tox9bBpHn4", "Ascent Cypher B Site Setup 2"),
+    VideoData("vGy0Rgy7izQ", "Ascent Cypher B Site Setup 3"),
+    VideoData("IxgT07FXKuY", "Ascent Cypher B Site Traps"),
   ];
 
   List<VideoData> favorites = [];

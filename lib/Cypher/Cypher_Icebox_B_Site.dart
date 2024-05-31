@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,9 +21,11 @@ class Cypher_Icebox_B_Site extends StatefulWidget {
 
 class _Cypher_Icebox_B_SiteState extends State<Cypher_Icebox_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("03Ie2ZiRkAQ", "Sova Default Post Plant Linep"),
-    VideoData("ktdQR7tLECU", "Site1231 2"),
-    VideoData("BfV7PnurQWo", "Siteeee 3"),
+    VideoData("4TNAJ9r18o8", "Icebox Cypher B Site Setup 1"),
+    VideoData("fIS7M011zIQ", "Icebox Cypher B Site Setup 2"),
+    VideoData("HsKLI0Tv2K0", "Icebox Cypher B Site Setup 3"),
+    VideoData("OvQcs5ymfwg", "Icebox Cypher B Site Setup 4"),
+    VideoData("sMmZTJU6fGA", "Icebox Cypher Mid Setup"),
   ];
 
   List<VideoData> favorites = [];

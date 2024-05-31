@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,11 +21,11 @@ class Sova_Bind_B_Site extends StatefulWidget {
 
 class _Sova_Bind_B_SiteState extends State<Sova_Bind_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("UTzcXR5HM-4", "Sova Default Post Plant Lineup"),
-    VideoData("wNobAd8ckTQ", "Sova B to A Default Double Shock Dart Lineup"),
-    VideoData("pHwmNGg6cIM", "Sova Fountain to Side Backsite Recon Dart"),
-    VideoData("v_-vgRC79tE", "Sova Fountain to Side Backsite Recon Dart 2"),
-    VideoData("Xac8JP-V_3Q", "B TP Open Recon/Shock Dart"),
+    VideoData("UTzcXR5HM-4", "Ascent Sova B Site Default Post Plant Lineup"),
+    VideoData("wNobAd8ckTQ", "Ascent Sova B to A Default Double Shock Dart Lineup"),
+    VideoData("pHwmNGg6cIM", "Ascent Sova Fountain to Side Backsite Recon Dart"),
+    VideoData("v_-vgRC79tE", "Ascent Sova Fountain to Side Backsite Recon Dart 2"),
+    VideoData("Xac8JP-V_3Q", "Ascent Sova B TP Open Recon/Shock Dart"),
   ];
 
   List<VideoData> favorites = [];

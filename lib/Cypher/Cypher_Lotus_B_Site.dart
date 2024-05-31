@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,9 +21,9 @@ class Cypher_Lotus_B_Site extends StatefulWidget {
 
 class _Cypher_Lotus_B_SiteState extends State<Cypher_Lotus_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("03Ie2ZiRkAQ", "Sova Default Post Plant Linep"),
-    VideoData("ktdQR7tLECU", "Site1231 2"),
-    VideoData("BfV7PnurQWo", "Siteeee 3"),
+    VideoData("hZTcZUJnUWs", "Lotus Cypher B Site Setup 1"),
+    VideoData("MSM4V3UoOI0", "Lotus Cypher B Site Setup 2"),
+    VideoData("EfDvNkSNDJU", "Lotus Cypher B Site Setup 3"),
   ];
 
   List<VideoData> favorites = [];

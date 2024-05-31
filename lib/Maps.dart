@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Site.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SitePlusC.dart';
-import 'Agents.dart';
+import 'AgentsData.dart';
 import 'MapsData.dart';
 
 class Maps extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,8 +21,12 @@ class Sova_Icebox_B_Site extends StatefulWidget {
 
 class _Sova_Icebox_B_SiteState extends State<Sova_Icebox_B_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
-
+    VideoData("UBYdgqIvAvY","Icebox Sova B Main to Default Post Plant Lineup"),
+    VideoData("3cwzgYQANcw","Icebox Sova B Main to Open Long Post Plant Lineup"),
+    VideoData("v_SR-mOgopc","Icebox Sova Spawn to B Long Overpeek check Shock Dart"),
+    VideoData("YuCD1zMskLM","Icebox Sova Spawm to Kitchen Recon Dart"),
+    VideoData("oY9y050_oek","Icebox Sova B Main to B Site Recon Dart"),
+    VideoData("n_g9gMns7Uc","Icebox Sova B Main to B Site Close Control Recon Dart"),
   ];
 
   List<VideoData> favorites = [];

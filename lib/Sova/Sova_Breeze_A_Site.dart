@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,8 +21,14 @@ class Sova_Breeze_A_Site extends StatefulWidget {
 
 class _Sova_Breeze_A_SiteState extends State<Sova_Breeze_A_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
-
+    VideoData("tNIfcbP1haw", "Breeze Sova A Site Default Post Plant Lineup"),
+    VideoData("-j3d11nxfRQ", "Breeze Sova A Site Default Post Plant Lineup"),
+    VideoData("LQL-uYDNd50", "Breeze Sova Shock Dart Tunnel Chamber Trap Break"),
+    VideoData("acXEs1NUwZ4", "Breeze Sova A Back Site Control Recon Dart"),
+    VideoData("eWsW-L61b8Q", "Breeze Sova A Site Recon Darts"),
+    VideoData("Bxf2eNv--To", "Breeze Sova Mid to B Site Fake Recon Darts"),
+    VideoData("JrF-Akn6Mb4", "Breeze Sova Mid to B Mid Door Info Recon Darts"),
+    VideoData("pN1Quo7M-s4", "Breeze Sova A Tunnel to A Bridge Info Recon Darts"),
   ];
 
   List<VideoData> favorites = [];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MapsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/SiteData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/VideoData.dart';
@@ -21,16 +21,16 @@ class Sova_Ascent_A_Site extends StatefulWidget {
 
 class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
   List<VideoData> videoDataList = [
-    VideoData("k4_rVTthzLg", "Sova Main to Default Post Plant Lineup"),
-    VideoData("BURUf_1yaBw", "Sova Wine to Default Post Plant Lineup"),
-    VideoData("RXEmp47eovM", "Sova Wine to Double Box Post Plant Lineup"),
-    VideoData("6Gli8PIwpTc", "Sova Generator Check Shock Dart"),
-    VideoData("75TLedx4HWI", "Sova Recon Dart"),
-    VideoData("7UGqui8odgU", "Sova Recon Dart 2"),
-    VideoData("j3k3jmpMQ_E", "Sova Recon Dart 3"),
-    VideoData("oluRtvkWIrg", "Sova A Main to B Fake Recon Dart"),
-    VideoData("2C55PQ_PXLA", "Sova Top Mid(base) to B Fake Recon Dart 2"),
-    VideoData("LVLe-m4RD1I", "Sova Spawn to B Fake Recon Dart 3"),
+    VideoData("k4_rVTthzLg", "Ascent Sova A Main to A Default Post Plant Lineup"),
+    VideoData("BURUf_1yaBw", "Ascent Sova Wine to A Default Post Plant Lineup"),
+    VideoData("RXEmp47eovM", "Ascent Sova Wine to A Double Box Post Plant Lineup"),
+    VideoData("6Gli8PIwpTc", "Ascent Sova Generator Check Shock Dart"),
+    VideoData("75TLedx4HWI", "Ascent Sova A Site Recon Dart"),
+    VideoData("7UGqui8odgU", "Ascent Sova A Site Recon Dart 2"),
+    VideoData("j3k3jmpMQ_E", "Ascent Sova A Site Recon Dart 3"),
+    VideoData("oluRtvkWIrg", "Ascent Sova A Main to B Fake Recon Dart"),
+    VideoData("2C55PQ_PXLA", "Ascent Sova Top Mid(base) to B Fake Recon Dart 2"),
+    VideoData("LVLe-m4RD1I", "Ascent Sova Spawn to B Fake Recon Dart 3"),
   ];
 
   List<VideoData> favorites = [];
@@ -77,7 +77,7 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
       ),
       body: Column(
         children: [
-          SizedBox(height: 10), // Video ile diğer elemanlar arasında boşluk eklemek için
+          SizedBox(height: 10),
           Expanded(
             child: ListView.builder(
               itemCount: videoDataList.length,
@@ -86,19 +86,18 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
                 final isFavorite = favorites.contains(video);
                 return InkWell(
                   onTap: () {
-                    // Kartlara basıldığında videoyu aç
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder: (context) => VideoOynatSayfasi(
-                          videoData: video, // Video datasını gönderiyoruz
+                          videoData: video,
                         ),
                       ),
                     );
                   },
                   child: Card(
                     child: ListTile(
-                      title: Text(video.videoName), // Video ismini videoData'dan al
+                      title: Text(video.videoName),
                       leading: Icon(Icons.gamepad),
                       trailing: IconButton(
                         icon: isFavorite ? Icon(Icons.star) : Icon(Icons.star_border),
@@ -113,7 +112,7 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
               },
             ),
           ),
-          ElevatedButton( // Favorileri gösteren sayfayı açan düğme
+          ElevatedButton(
             onPressed: () {
               Navigator.push(
                 context,
@@ -153,7 +152,6 @@ class VideoOynatSayfasi extends StatelessWidget {
             handleColor: Colors.amberAccent,
           ),
           onReady: () {
-            // Video hazır olduğunda yapılacak işlemler
           },
         ),
       ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AgentsData.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Cypher/Cypher_Lotus_A_Site.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Cypher/Cypher_Lotus_B_Site.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Cypher/Cypher_Lotus_C_Site.dart';
