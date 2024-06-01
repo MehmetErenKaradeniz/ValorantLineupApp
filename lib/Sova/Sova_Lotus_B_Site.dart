@@ -9,7 +9,7 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'dart:convert';
 
 class Sova_Lotus_B_Site extends StatefulWidget {
-  final Agents agent;
+  final AgentsData agent;
   final MapsData map;
   final SiteData site;
 

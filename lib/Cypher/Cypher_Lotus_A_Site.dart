@@ -9,7 +9,7 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'dart:convert';
 
 class Cypher_Lotus_A_Site extends StatefulWidget {
-  final Agents agent;
+  final AgentsData agent;
   final MapsData map;
   final SiteData site;
 

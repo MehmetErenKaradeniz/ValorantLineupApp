@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AppHub.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/CheckID.dart';
 
 void main() {

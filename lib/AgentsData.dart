@@ -1,5 +1,5 @@
-class Agents{
+class AgentsData{
   String agentsName="";
   String agentImage="";
-  Agents(this.agentsName,this.agentImage);
+  AgentsData(this.agentsName,this.agentImage);
 }

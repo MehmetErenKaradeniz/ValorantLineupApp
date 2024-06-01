@@ -5,7 +5,7 @@ import 'AgentsData.dart';
 import 'MapsData.dart';
 
 class Maps extends StatelessWidget {
-  final Agents agent;
+  final AgentsData agent;
 
   Maps({Key? key, required this.agent}) : super(key: key);
 

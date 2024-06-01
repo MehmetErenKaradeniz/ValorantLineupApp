@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Maps.dart';
 import 'AgentsData.dart';
 
-class AnaSayfa extends StatelessWidget {
-    List<Agents> agents = [
-    Agents("Sova", "Sova_icon.webp"),
-    Agents("Cypher", "Cypher_icon.webp"),
-    Agents("Killjoy", "Killjoy_icon.webp"),
-    Agents("Brimstone", "Brimstone_icon.webp"),
-    Agents("Viper", "Viper_icon.webp"),
-    Agents("Gekko", "Gekko_icon.webp"),
-    Agents("Fade", "Fade_icon.webp"),
-    Agents("Deadlock", "Deadlock_icon.webp"),
-    Agents("Kay/0", "KAYO_icon.webp"),
+class Agents extends StatelessWidget {
+  List<AgentsData> agents = [
+    AgentsData("Sova", "Sova_icon.webp"),
+    AgentsData("Cypher", "Cypher_icon.webp"),
+    AgentsData("Killjoy", "Killjoy_icon.webp"),
+    AgentsData("Brimstone", "Brimstone_icon.webp"),
+    AgentsData("Viper", "Viper_icon.webp"),
+    AgentsData("Gekko", "Gekko_icon.webp"),
+    AgentsData("Fade", "Fade_icon.webp"),
+    AgentsData("Deadlock", "Deadlock_icon.webp"),
+    AgentsData("Kay/0", "KAYO_icon.webp"),
   ];
 
   @override
@@ -31,7 +31,8 @@ class AnaSayfa extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Maps(agent: agents[index])),
+                  MaterialPageRoute(
+                      builder: (context) => Maps(agent: agents[index])),
                 );
               },
               child: Card(

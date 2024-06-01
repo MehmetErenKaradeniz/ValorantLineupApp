@@ -33,7 +33,7 @@ class Site extends StatelessWidget {
     SiteData("B Site", "B_Site.png"),
   ];
 
-  final Agents agent;
+  final AgentsData agent;
   final MapsData map;
 
   Site({Key? key, required this.agent, required this.map}) : super(key: key);

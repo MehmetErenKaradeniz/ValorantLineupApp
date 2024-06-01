@@ -17,7 +17,7 @@ class SitePlusC extends StatelessWidget {
     SiteData("C Site", "C_Site.png"),
   ];
 
-  final Agents agent;
+  final AgentsData agent;
   final MapsData map;
 
   SitePlusC({Key? key, required this.agent, required this.map}) : super(key: key);
