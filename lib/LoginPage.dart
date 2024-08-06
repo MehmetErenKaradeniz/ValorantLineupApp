@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AppHub.dart';
@@ -74,3 +75,4 @@ class LoginPage extends StatelessWidget {
     });
   }
 }
+ */

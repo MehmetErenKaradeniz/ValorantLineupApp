@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/CheckID.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/AppHub.dart';
 
 void main() {
-  runApp(AnaUygulama());
+  runApp(MainApp());
 }
 
-class AnaUygulama extends StatelessWidget {
-  const AnaUygulama({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: CheckID());
+    return MaterialApp(home: AppHub());
   }
 }

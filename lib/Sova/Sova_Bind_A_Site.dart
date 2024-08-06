@@ -70,6 +70,7 @@ class _Sova_Bind_A_SiteState extends State<Sova_Bind_A_Site> {
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.agent.agentsName} - ${widget.map.mapName} - ${widget.site.siteName}"),
+        backgroundColor: Colors.deepPurple,
       ),
       body: Column(
         children: [
@@ -95,7 +96,7 @@ class _Sova_Bind_A_SiteState extends State<Sova_Bind_A_Site> {
                   child: Card(
                     child: ListTile(
                       title: Text(video.videoName), // Video ismini videoData'dan al
-                      leading: Icon(Icons.gamepad),
+                      leading: Icon( Icons.gamepad, color: Colors.deepPurple,),
                       trailing: IconButton(
                         icon: isFavorite ? Icon(Icons.star) : Icon(Icons.star_border),
                         onPressed: () {
@@ -132,7 +133,8 @@ class VideoOynatSayfasi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(videoData.videoName)),
+      appBar: AppBar(title: Text(videoData.videoName),
+        backgroundColor: Colors.deepPurple,),
       body: Center(
         child: YoutubePlayer(
           controller: YoutubePlayerController(
@@ -143,10 +145,10 @@ class VideoOynatSayfasi extends StatelessWidget {
             ),
           ),
           showVideoProgressIndicator: true,
-          progressIndicatorColor: Colors.amber,
+          progressIndicatorColor: Colors.deepPurpleAccent,
           progressColors: const ProgressBarColors(
-            playedColor: Colors.amber,
-            handleColor: Colors.amberAccent,
+            playedColor: Colors.deepPurpleAccent,
+            handleColor: Colors.deepPurple,
           ),
           onReady: () {
             // Video hazır olduğunda yapılacak işlemler

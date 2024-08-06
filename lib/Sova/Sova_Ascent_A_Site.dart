@@ -74,10 +74,11 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.agent.agentsName} - ${widget.map.mapName} - ${widget.site.siteName}"),
+        backgroundColor: Colors.deepPurple,
       ),
       body: Column(
         children: [
-          SizedBox(height: 10),
+          SizedBox(height: 10), // Video ile diğer elemanlar arasında boşluk eklemek için
           Expanded(
             child: ListView.builder(
               itemCount: videoDataList.length,
@@ -86,19 +87,20 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
                 final isFavorite = favorites.contains(video);
                 return InkWell(
                   onTap: () {
+                    // Kartlara basıldığında videoyu aç
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder: (context) => VideoOynatSayfasi(
-                          videoData: video,
+                          videoData: video, // Video datasını gönderiyoruz
                         ),
                       ),
                     );
                   },
                   child: Card(
                     child: ListTile(
-                      title: Text(video.videoName),
-                      leading: Icon(Icons.gamepad),
+                      title: Text(video.videoName), // Video ismini videoData'dan al
+                      leading: Icon( Icons.gamepad, color: Colors.deepPurple,),
                       trailing: IconButton(
                         icon: isFavorite ? Icon(Icons.star) : Icon(Icons.star_border),
                         onPressed: () {
@@ -112,7 +114,7 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
               },
             ),
           ),
-          ElevatedButton(
+          ElevatedButton( // Favorileri gösteren sayfayı açan düğme
             onPressed: () {
               Navigator.push(
                 context,
@@ -127,6 +129,7 @@ class _Sova_Ascent_A_SiteState extends State<Sova_Ascent_A_Site> {
   }
 }
 
+
 class VideoOynatSayfasi extends StatelessWidget {
   final VideoData videoData;
 
@@ -135,7 +138,8 @@ class VideoOynatSayfasi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(videoData.videoName)),
+      appBar: AppBar(title: Text(videoData.videoName),
+        backgroundColor: Colors.deepPurple,),
       body: Center(
         child: YoutubePlayer(
           controller: YoutubePlayerController(
@@ -146,10 +150,10 @@ class VideoOynatSayfasi extends StatelessWidget {
             ),
           ),
           showVideoProgressIndicator: true,
-          progressIndicatorColor: Colors.amber,
+          progressIndicatorColor: Colors.deepPurpleAccent,
           progressColors: const ProgressBarColors(
-            playedColor: Colors.amber,
-            handleColor: Colors.amberAccent,
+            playedColor: Colors.deepPurpleAccent,
+            handleColor: Colors.deepPurple,
           ),
           onReady: () {
           },

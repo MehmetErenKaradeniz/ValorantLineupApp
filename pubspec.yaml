@@ -32,6 +32,9 @@ dependencies:
     sdk: flutter
   shared_preferences: ^2.2.3
   youtube_player_flutter: ^9.0.1
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.3.0
+  google_mobile_ads: ^2.0.0
 
 
 
@@ -80,6 +83,10 @@ flutter:
      - assets/Loading_Screen_Split.webp
      - assets/Loading_Screen_Sunset.webp
      - assets/Loading_Screen_Icebox.webp
+     - assets/Loading_Screen_Pearl.webp
+     - assets/Loading_Screen_Haven.webp
+     - assets/Loading_Screen_Fracture.webp
+     - assets/Loading_Screen_Abyss.webp
      - assets/A_Site.png
      - assets/B_Site.png
      - assets/C_Site.png

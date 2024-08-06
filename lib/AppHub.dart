@@ -1,43 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/Agents.dart';
-import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/EditUserData.dart';
+import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/ContactPage.dart';
 import 'package:flutter_proje_mehmet_eren_karadeniz_2212102003/MyFavorites.dart';
 
 class AppHub extends StatefulWidget {
-  final String username;
-
-  AppHub({required this.username});
-
   @override
   _AppHubState createState() => _AppHubState();
 }
 
 class _AppHubState extends State<AppHub> {
-  late String _username;
-
-  @override
-  void initState() {
-    super.initState();
-    _username = widget.username;
-  }
-
-  @override
-  void didUpdateWidget(covariant AppHub oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    _username = widget.username;
-  }
-
-  void _updateUsername(String newName) {
-    setState(() {
-      _username = newName;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Welcome $_username"),
+        title: Text("Welcome"),
         backgroundColor: Colors.deepPurple,
       ),
       body: Container(
@@ -76,11 +52,11 @@ class _AppHubState extends State<AppHub> {
               SizedBox(height: 30),
               _buildElevatedButton(
                 context,
-                label: "Edit User Data",
+                label: "Contact Us",
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => EditUserData(onNameChanged: _updateUsername)),
+                    MaterialPageRoute(builder: (context) => ContactPage()),
                   );
                 },
               ),
